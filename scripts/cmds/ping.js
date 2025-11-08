@@ -18,7 +18,7 @@ module.exports = {
   },
   onStart: async function ({ api, event, args }) {
     const timeStart = Date.now();
-    await api.sendMessage("CHECKING PINING 🦆💔", event.threadID);
+    await api.sendMessage("CHECKING PINING ❀", event.threadID);
     const uptime = Date.now() - timeStart;
     // Adjusted the range for more values between 100 and 200
     const randomUptime = Math.floor(Math.random() * (200 - 100 + 1)) + 100;
@@ -26,7 +26,7 @@ module.exports = {
     const showRealRun = Math.random() <= 0.2;
     const finalRunning = showRealRun ? uptime : randomUptime;
 
-    api.sendMessage(`Running ping 🐎 ${finalRunning} MS.`, event.threadID);
+    api.sendMessage(`✦━━━━━━━━━━━━━━━━✦\n 𝚁𝚄𝙽𝙽𝙸𝙽𝙶 𝙿𝙸𝙽𝙶 ∝  ${finalRunning} ms-¹\n ✦━━━━━━━━━━━━━━━━✦`, event.threadID);
   },
   onChat: async function ({ event, message, getLang }) {
     if (event.body && event.body.toLowerCase() === "uptimespeed") {
