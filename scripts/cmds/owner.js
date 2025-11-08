@@ -16,14 +16,14 @@ module.exports = {
 		envConfig: {}
 	},
 	onStart: async function ({ message }) {
-		const authorName = "𝗠𝗿.𝗗𝗶𝗱𝗮𝗿";
-		const ownAge = "19";
-		const messenger = " //https://m.me/100044855600383";
-		const authorFB = " //https://www.facebook.com/Didar.Einstein12";
-		const authorNumber = "013********94";
+		const authorName = "MEHERAZ";
+		const ownAge = "17";
+		const messenger = " //https://m.me/100023789902793";
+		const authorFB = " //https://www.facebook.com/chisty.57";
+		const authorNumber = "017********86";
 		const Status = "𝘀𝗶𝗻𝗴𝗹𝗲 ";
 		const urls = [
-"https://drive.google.com/uc?export=download&id=1ZFN18K6yyRarQ7Iaa-DFtRsA-c6WkSZD"
+"https://drive.google.com/uc?export=download&id=1qDBh4_66F2okNHc79F_px0c9uB2YR4GC"
 ];
 		const link = urls[Math.floor(Math.random() * urls.length)];
 		const now = moment().tz('Asia/Jakarta');
@@ -49,8 +49,8 @@ module.exports = {
 \⏰彡𝑁𝑜𝑤 𝑇𝑖𝑚𝑒 : ${time}
 \🔰彡𝐴𝑛𝑦 𝐻𝑒𝑙𝑝 𝐶𝑜𝑛𝑡𝑎𝑐𝑡 : ${messenger}__⩸
 \📛彡𝐵𝑜𝑡 𝐼𝑠 𝑅𝑢𝑛𝑛𝑖𝑛𝑔 𝐹𝑜𝑟 : ${uptimeString}
-    𝑰𝒏𝒔𝒕𝒂:  //https://www.instagram.com/alvee.didar.12?igsh=anZjZDV0aDMzZmM3&utm_source=qr
-\===============`,
+    𝑰𝒏𝒔𝒕𝒂:  //https://www.instagram.com/chisty_57
+\✦━━━━━━━━━━━━━━━━━✦`,
 			attachment: await global.utils.getStreamFromURL(link)
 		});
 	},
