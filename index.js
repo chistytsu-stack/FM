@@ -62,3 +62,13 @@ app.get("/webhook", (req, res) => {
 app.listen(PORT, "0.0.0.0", () => {
     console.log(`Server is running on port ${PORT}`);
 });
+
+function startProject() {
+const gradient = require('gradient-string');
+console.clear();
+console.log(gradient.pastel.multiline(`
+╔═══════════════════════════════════════════╗
+   🐐 GOAT BOT V2 (MODIFIED BY MEHERAZ ISLAM)
+   🚀 Powered by Chisty Style 💫
+╚═══════════════════════════════════════════╝
+`));
